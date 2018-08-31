@@ -8,11 +8,10 @@ bankAccount = bankAccount - 12*rent;
 console.log(bankAccount);
 
 //Did you get what you expect?
-//Write a new statement below which subtracts 5 years of a car payment on line 12.
-carPayment = carPayment - 5;
- 
+//Write a new statement below which subtracts 5 years of a car payment on line 12. 
+bankAccount = bankAccount - 5*carPayment;
+console.log(bankAccount);
 //Declare a variable named income on line 15, assign yourself 2500 in income.
-
+const income = 2500;
 //On the next line
-
 
